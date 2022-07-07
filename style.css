@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: sans-serif;
+  }
+:root{
+    --container-width-ig:80%;
+    --container-width-md:90%;
+    --container-width-sn:94%;
+    --transition: all 400ms ease;
+    --font-weight :700;
+    --font-weight-medium:600;
+    --font-weight-small:500;
+    --font-weight-smaller :400;
+    --font-weight-smallest:300;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+/* button style */
+.btn-primary{
+    /* background: #fd059e; */
+    background: #1F0245;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: var(--font-weight-smaller);
+    font-size:15px;
+    outline: none;
+    border: none;
+
+}
+.btn-primary:hover{
+    background:#000 ;
+}
+.btn-danger{
+background-color: #f00997ea;
+color:#fff;
+font-size: 15px;
+font-weight: var(--font-weight-small);
+margin-top:1rem ;
+}
+.btn-danger:focus{
+    background-color: #c6538c;
+    box-shadow:0,4px,19px rgba(0,0,0,0.3) ;
+    color:#fff;
+
+}
+.btn-danger:hover{
+    background:#fff;
+    color:#E2239A;
+}
+/* nav bar style */
+.logo{
+    padding-right: 16px;
+    color:#fff;
+}
+.navbar{
+    padding: 5px 0;
+    background:#987bbe;
+    /* word-break: break-all; */
+}
+a.nav-link{
+margin-right: 38px;
+font-size: 15px;
+font-weight: var(--font-weight-small);
+color:#fff;
+}
+a.nav-link:hover{
+  color: antiquewhite;
+}
+.hero{
+    background:url('img/mk2.jpg');
+    background-size: cover;
+    height:40rem;
+}
+.hero1{
+    background:url('img/peace\ building\ 1.jfif');
+    background-size: cover;
+    height:40rem;
+}
+.hero_text{
+    padding-top: 15rem;
+}
+.vision_1{
+    margin-top:7rem;
+}
+.vision_1 p{
+    margin: 2rem 0 2.5rem;
+}
+.vission_img{
+    background: url('img/ngo1.jpg');
+    background-size: cover;
+    height: 30rem;
+}
+/* .vision{
+    background-color: #E2239A;
+    height: 30rem;
+} */
+.btn_mission{
+    background: #1F0245;
+    color:white;
+    height: 1rem;
+    width:2rem;
+    padding:1rem;
+    outline: none;
+    /* margin-top: 5rem; */
+}
+.mission_pics{
+    background: url('img/mk3.jpg');
+    background-size: cover;
+    height: 25rem;
+}
+.service{
+    margin-top: 3rem;
+}
+.ser_img{
+    background-image: url('img/governance\ 2.jpg');
+    background-size: cover;
+    height: 20rem;
+}
