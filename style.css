@@ -119,3 +119,32 @@ a.nav-link:hover{
     background-size: cover;
     height: 20rem;
 }
+.ser_img h3{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 30px;
+}
+.ser_img :nth-child(2){
+    background: url('img/peace1.jpg');
+    height: 20rem;
+    background-size: cover;
+}
+.icons{
+    font-size: 30px;
+}
+.foot{
+    background: rgba(0, 0, 0, 0.362);
+}
+@media (min-width:300px) and (max-width:550px) {
+    .hero_text{
+        padding-top: 5rem;
+    }
+    .text_hero{
+        font-size: 20px;
+    }
+    .text_p{
+        font-size: 15px !important;
+    }
+}
