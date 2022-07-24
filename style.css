@@ -3,6 +3,7 @@
     text-decoration: none !important;
     list-style: none;
     font-family: sans-serif;
+    /* overflow-x:hidden !important ; */
   }
 :root{
     --container-width-ig:80%;
@@ -28,12 +29,11 @@ body{
     font-size:15px;
     outline: none;
     border: none;
-
 }
 .btn-primary:hover{
     background:#000 ;
 }
-.btn-danger{
+/* .btn-danger{
 background-color: #f00997ea;
 color:#fff;
 font-size: 15px;
@@ -49,22 +49,28 @@ margin-top:1rem ;
 .btn-danger:hover{
     background:#fff;
     color:#E2239A;
-}
+} */
 /* nav bar style */
-.logo{
-    padding-right: 16px;
-    color:#fff;
+#logo1{
+    color:white;
+}
+#logo2{
+    color:red;
 }
 .navbar{
-    padding: 5px 0;
-    background:#987bbe;
+    padding: 10px ;
+    background:purple;
     /* word-break: break-all; */
+}
+.nav_icons{
+    background-color: red;
 }
 a.nav-link{
 margin-right: 38px;
 font-size: 15px;
 font-weight: var(--font-weight-small);
 color:#fff;
+
 }
 a.nav-link:hover{
   color: antiquewhite;
@@ -73,14 +79,19 @@ a.nav-link:hover{
     background:url('img/mk2.jpg');
     background-size: cover;
     height:40rem;
+    width: 100%;
 }
 .hero1{
     background:url('img/peace\ building\ 1.jfif');
     background-size: cover;
     height:40rem;
+    width: 100%;
 }
 .hero_text{
     padding-top: 15rem;
+}
+.vision{
+    margin-top: 2rem;
 }
 .vision_1{
     margin-top:7rem;
@@ -113,11 +124,16 @@ a.nav-link:hover{
 }
 .service{
     margin-top: 3rem;
+    width: 100%;
+}
+.team{
+    margin: 3rem 0;
 }
 .ser_img{
     background-image: url('img/governance\ 2.jpg');
     background-size: cover;
     height: 20rem;
+    width: 100%;
 }
 .ser_img h3{
     color: rgb(255, 255, 255);
@@ -126,25 +142,69 @@ a.nav-link:hover{
     padding-top: 10rem;
     font-size: 30px;
 }
-.ser_img :nth-child(2){
+/* .ser_img :nth-child(2){
     background: url('img/peace1.jpg');
     height: 20rem;
     background-size: cover;
-}
+} */
 .icons{
     font-size: 30px;
 }
 .foot{
     background: rgba(0, 0, 0, 0.362);
+    margin-top: 3rem;
+}
+.contact{
+    margin-top: 3rem;
+}
+.btn1{
+    /* background: #fd059e; */
+    background: navy;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: var(--font-weight-smaller);
+    font-size:15px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.btn2{
+     background-color:rgba(0, 0, 128, 0.871);
+        color:#fff;
+        font-size: 25px;
+        margin-top:1rem ;
+        width: 10rem;
+        height:4rem;
+        border: none;
+}
+.contacts,.conts{
+    margin-top:2rem;
 }
 @media (min-width:300px) and (max-width:550px) {
+
     .hero_text{
-        padding-top: 5rem;
+        padding-top: 7rem;
     }
+    .vision_1{
+        margin-top:3rem;
+    }
+  
     .text_hero{
         font-size: 20px;
     }
     .text_p{
         font-size: 15px !important;
+    }
+    .card1{
+        margin-top: 2rem;
+    }
+    .card2, .foot{
+        margin-top: 1rem;
+    }
+    .txt1{
+        padding-top:6rem;
+    }
+    .txt2{
+        padding-top: 1rem;
     }
 }
